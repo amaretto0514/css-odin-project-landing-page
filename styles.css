@@ -67,7 +67,7 @@ button{
 }
 
 .first .img-first{
-    width: 100%;
+    width: 50%;
     align-items: center;
     height: 300px;
 }
@@ -147,15 +147,19 @@ button{
     height: 40vh;
     display: flex;
     align-items: center;
+    color: #E5E7EB;
     justify-content: center;
 }
 
 .fourth .blue-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3882f6;
-    border: 5px solid #E5E7EB;
     width: 800px;
     height: 100px;
-    padding: auto;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 15px;
 }
 
@@ -169,6 +173,7 @@ footer{
     color: #E5E7EB;
     text-align: center;
 }
-footer h1{
-    padding-top: 25px;
+footer h5{
+    padding-top: 20px;
+    font-weight: 500;
 }
